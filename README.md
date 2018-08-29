@@ -40,8 +40,7 @@ Obs: É muito importante passar os dados certos, caso contrário o retorno será
 Exemplo de erro:
 ```php
 	{ 
-	 "erro": 
-	 "Chave inválida ou não cadastrada!" 
+	 "erro": "Chave inválida ou não cadastrada!" 
 	}
 ```
 O parâmetro "erro" só é enviado quando algum erro é apresentado, caso contrário os dados referentes ao CEP são enviados pelo retorno.
