@@ -1,8 +1,6 @@
 <?php 
 
 # Script de exemplo para funcionamento do webservice do site app.meucep.online
-
-
 /*************************/
 # Autor: Eduardo Palandrani
 # Data e Hora: 2018-08-28 23:05:27
