@@ -36,3 +36,11 @@ Exemplo de retorno:
 ```  
 
 Obs: É muito importante passar os dados certos, caso contrário o retorno será com erro!
+
+Exemplo de erro:
+```php
+	{ 
+	 "erro": 
+	 "Chave inválida ou não cadastrada!" 
+	}
+```
