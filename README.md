@@ -16,8 +16,8 @@ Exemplo de requisição:
 
 ```php  
 <?php
-	file_get_contents('http://app.meucep.online?KEY=SUACHAVE&CEP=01001-000');
-	json_decode($retorno); 
+	$retorno = file_get_contents('http://app.meucep.online?KEY=SUACHAVE&CEP=01001-000');
+	$cep = json_decode($retorno); 
 ```  
 
 Exemplo de retorno:  
