@@ -8,8 +8,8 @@
 # Data e Hora: 2018-08-28 23:05:27
 /*************************/
 
-function BuscaCEP($cep){ # Função simplificada do exemplo para busca de CEP no meucep.online
-	$retorno = file_get_contents('http://app.meucep.online?KEY=SUACHAVE&CEP=01001-000');
+function BuscaCEP($key, $cep){ # Função simplificada do exemplo para busca de CEP no meucep.online
+	$retorno = file_get_contents('http://app.meucep.online?KEY=$key&CEP=$cep');
 	
 	echo $retorno; # Apague essa linha para não mostrar mais na tela os dados em JSON
 
