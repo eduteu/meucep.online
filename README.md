@@ -1,5 +1,5 @@
 # meucep.online
-Documentação oficial para integração da Plataforma.
+Busca de CEP online. Documentação oficial para integração da Plataforma.
 
 # 1 .  
 ### Faça uma requisição pelo endereço "http://app.meucep.online"  
