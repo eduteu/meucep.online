@@ -44,7 +44,7 @@ Exemplo de erro:
 	 "Chave inválida ou não cadastrada!" 
 	}
 ```
-O parâmetro erro só é enviado quando algum erro é apresentado, caso contrário os dados referentes ao CEP são enviados pelo retorno.
+O parâmetro "erro" só é enviado quando algum erro é apresentado, caso contrário os dados referentes ao CEP são enviados pelo retorno.
 
 
 
