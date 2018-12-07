@@ -15,7 +15,7 @@ function BuscaCEP($key, $cep){ # Função simplificada do exemplo para busca de 
 	//$cep = json_decode($retorno); 
 }
 
-function EnviaSMS($key, $cel, $msg){
+function EnviaSMS($key, $cel, $msg){ # Função simplificada do exemplo para envio de SMS no meucep.online
 	$retorno = file_get_contents('http://app.meucep.online?KEY=$key&TIPO=SMS&CEL=$cel&MSG=$msg');
 	
 	echo $retorno; # Apague essa linha para não mostrar mais na tela os dados em JSON
