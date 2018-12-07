@@ -16,7 +16,7 @@ Exemplo de requisição de busca de CEP:
 
 ```php  
 <?php
-	$retorno = file_get_contents('http://app.meucep.online?KEY=SUACHAVE&TIPO=CEP&CEP=01001-000');
+	$retorno = file_get_contents('http://app.meucep.online?KEY=SUACHAVE&TIPO=CEP&CEP=01001000');
 	$cep = json_decode($retorno); 
 ```  
 
