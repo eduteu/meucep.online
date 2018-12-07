@@ -7,10 +7,19 @@
 /*************************/
 
 function BuscaCEP($key, $cep){ # Função simplificada do exemplo para busca de CEP no meucep.online
-	$retorno = file_get_contents('http://app.meucep.online?KEY=$key&CEP=$cep');
+	$retorno = file_get_contents('http://app.meucep.online?KEY=$key&TIPO=CEP&CEP=$cep');
 	
 	echo $retorno; # Apague essa linha para não mostrar mais na tela os dados em JSON
 
 	# Basta comentar a linha de baixo para tratar os dados que vem em JSON
 	//$cep = json_decode($retorno); 
+}
+
+function EnviaSMS($key, $cel, $msg){
+	$retorno = file_get_contents('http://app.meucep.online?KEY=$key&TIPO=SMS&CEL=$cel&MSG=$msg');
+	
+	echo $retorno; # Apague essa linha para não mostrar mais na tela os dados em JSON
+
+	# Basta comentar a linha de baixo para tratar os dados que vem em JSON
+	//$sms = json_decode($retorno); 
 }
